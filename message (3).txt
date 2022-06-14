@@ -1,0 +1,1631 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local Holder = Instance.new("ScrollingFrame")
+local ImageLabel = Instance.new("ImageLabel")
+local Frame = Instance.new("ImageLabel")
+local ROBLOX = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local Frame_2 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local TextLabel_3 = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local TextLabel_4 = Instance.new("TextLabel")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local TextLabel_5 = Instance.new("TextLabel")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local TextLabel_6 = Instance.new("TextLabel")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local TextLabel_7 = Instance.new("TextLabel")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local TextLabel_8 = Instance.new("TextLabel")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local TextLabel_9 = Instance.new("TextLabel")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local TextLabel_10 = Instance.new("TextLabel")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local Robux1 = Instance.new("TextButton")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local Platform = Instance.new("TextButton")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local Robux2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local TextButton_3 = Instance.new("TextButton")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local TextButton_4 = Instance.new("TextButton")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local PLT = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+local TextButton_6 = Instance.new("TextButton")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local TextButton_7 = Instance.new("TextButton")
+local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
+local Andriod = Instance.new("TextLabel")
+local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
+local PC = Instance.new("TextLabel")
+local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local iOS = Instance.new("TextLabel")
+local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
+local d = Instance.new("TextLabel")
+local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
+local d_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
+local c = Instance.new("TextLabel")
+local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
+local b = Instance.new("TextLabel")
+local UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint")
+local a = Instance.new("TextLabel")
+local UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint")
+local Test1 = Instance.new("ImageLabel")
+local ImageButton = Instance.new("ImageButton")
+local Test2 = Instance.new("ImageLabel")
+local ImageButton_2 = Instance.new("ImageButton")
+local Frame_3 = Instance.new("Frame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Signin = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UITextSizeConstraint_29 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Confirm = Instance.new("Frame")
+local NO = Instance.new("TextButton")
+local UITextSizeConstraint_30 = Instance.new("UITextSizeConstraint")
+local Yes = Instance.new("TextButton")
+local UITextSizeConstraint_31 = Instance.new("UITextSizeConstraint")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local UITextSizeConstraint_32 = Instance.new("UITextSizeConstraint")
+local TextLabel_12 = Instance.new("TextLabel")
+local UITextSizeConstraint_33 = Instance.new("UITextSizeConstraint")
+local Frame_5 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local UITextSizeConstraint_34 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Loading = Instance.new("ImageLabel")
+local Login = Instance.new("Frame")
+local ImageLabel3 = Instance.new("ImageLabel")
+local Ap = Instance.new("Frame")
+local a_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_35 = Instance.new("UITextSizeConstraint")
+local b_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_36 = Instance.new("UITextSizeConstraint")
+local d_3 = Instance.new("TextLabel")
+local UITextSizeConstraint_37 = Instance.new("UITextSizeConstraint")
+local e = Instance.new("TextLabel")
+local UITextSizeConstraint_38 = Instance.new("UITextSizeConstraint")
+local f = Instance.new("TextLabel")
+local UITextSizeConstraint_39 = Instance.new("UITextSizeConstraint")
+local g = Instance.new("TextLabel")
+local UITextSizeConstraint_40 = Instance.new("UITextSizeConstraint")
+local h = Instance.new("TextLabel")
+local UITextSizeConstraint_41 = Instance.new("UITextSizeConstraint")
+local i = Instance.new("TextLabel")
+local UITextSizeConstraint_42 = Instance.new("UITextSizeConstraint")
+local c_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_43 = Instance.new("UITextSizeConstraint")
+local Frame_6 = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local UITextSizeConstraint_44 = Instance.new("UITextSizeConstraint")
+local TextLabel_15 = Instance.new("TextLabel")
+local UITextSizeConstraint_45 = Instance.new("UITextSizeConstraint")
+local Login1 = Instance.new("Frame")
+local Password = Instance.new("Frame")
+local PasswordBox = Instance.new("TextBox")
+local UITextSizeConstraint_46 = Instance.new("UITextSizeConstraint")
+local FakePassword = Instance.new("TextBox")
+local UITextSizeConstraint_47 = Instance.new("UITextSizeConstraint")
+local Signin_2 = Instance.new("ImageButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local UITextSizeConstraint_48 = Instance.new("UITextSizeConstraint")
+local Incorrect1 = Instance.new("TextLabel")
+local UITextSizeConstraint_49 = Instance.new("UITextSizeConstraint")
+local ImageLabel3_2 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local Frame_7 = Instance.new("Frame")
+local TextLabel_17 = Instance.new("TextLabel")
+local UITextSizeConstraint_50 = Instance.new("UITextSizeConstraint")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UsernameBox = Instance.new("TextLabel")
+local UITextSizeConstraint_51 = Instance.new("UITextSizeConstraint")
+local Downpassword = Instance.new("TextLabel")
+local UITextSizeConstraint_52 = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Workspace
+
+Holder.Name = "Holder"
+Holder.Parent = Main
+Holder.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Holder.BackgroundTransparency = 1.000
+Holder.Size = UDim2.new(1, 0, 1, 0)
+Holder.CanvasSize = UDim2.new(0, 0, 1.5, 0)
+Holder.ScrollBarThickness = 0
+Holder.ScrollingEnabled = false
+
+ImageLabel.Parent = Holder
+ImageLabel.BackgroundColor3 = Color3.fromRGB(229, 230, 230)
+ImageLabel.Position = UDim2.new(0, 0, -0.00607638946, 0)
+ImageLabel.Size = UDim2.new(1.00805867, 0, 1.5, 0)
+ImageLabel.ImageColor3 = Color3.fromRGB(131, 170, 99)
+
+Frame.Name = "Frame"
+Frame.Parent = ImageLabel
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.200418949, 0, 0.0162054002, 0)
+Frame.Selectable = true
+Frame.Size = UDim2.new(0.589684248, 0, 0.571345806, 0)
+Frame.Image = "rbxassetid://2851920938"
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(25, 25, 25, 25)
+
+ROBLOX.Name = "ROBLOX"
+ROBLOX.Parent = Frame
+ROBLOX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ROBLOX.BackgroundTransparency = 1.000
+ROBLOX.Position = UDim2.new(0.267204314, 0, 0.0315986611, 0)
+ROBLOX.Size = UDim2.new(0.465517193, 0, 0.0678628385, 0)
+ROBLOX.Image = "http://www.roblox.com/asset/?id=9887990440"
+ROBLOX.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+TextBox.BackgroundTransparency = 1.000
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.128215551, 0, 0.307706982, 0)
+TextBox.Size = UDim2.new(0.932265937, 0, 0.0892494917, 0)
+TextBox.Font = Enum.Font.Cartoon
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 40.000
+TextBox.TextWrapped = true
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = TextBox
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(-0.0754451752, 0, -1.25046289, 0)
+Frame_2.Size = UDim2.new(0.959048867, 0, 0.965909064, 0)
+Frame_2.Image = "rbxassetid://2851926732"
+Frame_2.ImageColor3 = Color3.fromRGB(20, 135, 33)
+Frame_2.ScaleType = Enum.ScaleType.Slice
+Frame_2.SliceCenter = Rect.new(12, 12, 12, 12)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.106966347, 0, 0.197426647, 0)
+TextLabel.Size = UDim2.new(1.20936644, 0, 0.587469399, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Version 1.54. Last Updated: 2022/05/23 EDT"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 40.000
+TextLabel.TextWrapped = true
+
+UITextSizeConstraint.Parent = TextLabel
+UITextSizeConstraint.MaxTextSize = 40
+
+TextLabel_2.Parent = TextBox
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.0092470292, 0, -2.3295455, 0)
+TextLabel_2.Size = UDim2.new(0.803170383, 0, 0.567442, 0)
+TextLabel_2.Font = Enum.Font.Highway
+TextLabel_2.Text = "Roblox Robux Generator"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 55.000
+TextLabel_2.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextLabel_2
+UITextSizeConstraint_2.MaxTextSize = 55
+
+TextLabel_3.Parent = TextBox
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.0356671065, 0, -2.04570603, 0)
+TextLabel_3.Size = UDim2.new(0.844121516, 0, 0.976000249, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Get unlimited Roblox Robux at no cost."
+TextLabel_3.TextColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 30.000
+TextLabel_3.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = TextLabel_3
+UITextSizeConstraint_3.MaxTextSize = 30
+
+TextLabel_4.Parent = TextBox
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.256255925, 0, -0.0454545617, 0)
+TextLabel_4.Size = UDim2.new(0.313077927, 0, 0.567442, 0)
+TextLabel_4.Font = Enum.Font.Cartoon
+TextLabel_4.Text = "1.Select your platform"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 30.000
+TextLabel_4.TextWrapped = true
+
+UITextSizeConstraint_4.Parent = TextLabel_4
+UITextSizeConstraint_4.MaxTextSize = 30
+
+TextLabel_5.Parent = TextBox
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.10962455, 0, 0.386363655, 0)
+TextLabel_5.Size = UDim2.new(0.636723936, 0, 0.817116499, 0)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Please choose the plaform on which you play.\\n\\n"
+TextLabel_5.TextColor3 = Color3.fromRGB(109, 109, 109)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 30.000
+TextLabel_5.TextWrapped = true
+
+UITextSizeConstraint_5.Parent = TextLabel_5
+UITextSizeConstraint_5.MaxTextSize = 30
+
+TextLabel_6.Parent = TextBox
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.256255955, 0, 2.10227275, 0)
+TextLabel_6.Size = UDim2.new(0.313077927, 0, 0.567442, 0)
+TextLabel_6.Font = Enum.Font.Cartoon
+TextLabel_6.Text = "2.Robux"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 30.000
+TextLabel_6.TextWrapped = true
+
+UITextSizeConstraint_6.Parent = TextLabel_6
+UITextSizeConstraint_6.MaxTextSize = 30
+
+TextLabel_7.Parent = TextBox
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0871674791, 0, 2.22727299, 0)
+TextLabel_7.Size = UDim2.new(0.636723936, 0, 0.817116499, 0)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Please choose  how much robux you want."
+TextLabel_7.TextColor3 = Color3.fromRGB(109, 109, 109)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 30.000
+TextLabel_7.TextWrapped = true
+
+UITextSizeConstraint_7.Parent = TextLabel_7
+UITextSizeConstraint_7.MaxTextSize = 30
+
+TextLabel_8.Parent = TextBox
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.253613919, 0, 4.26136398, 0)
+TextLabel_8.Size = UDim2.new(0.313077927, 0, 0.567442, 0)
+TextLabel_8.Font = Enum.Font.Cartoon
+TextLabel_8.Text = "Proxy Connection (AES-256 Encryption)"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 30.000
+TextLabel_8.TextWrapped = true
+
+UITextSizeConstraint_8.Parent = TextLabel_8
+UITextSizeConstraint_8.MaxTextSize = 30
+
+TextLabel_9.Parent = TextBox
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-0.0621059723, 0, 4.45454597, 0)
+TextLabel_9.Size = UDim2.new(0.911492705, 0, 0.817116499, 0)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "This is so that the servers cannot intercept the connection."
+TextLabel_9.TextColor3 = Color3.fromRGB(109, 109, 109)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 30.000
+TextLabel_9.TextWrapped = true
+
+UITextSizeConstraint_9.Parent = TextLabel_9
+UITextSizeConstraint_9.MaxTextSize = 30
+
+TextLabel_10.Parent = TextBox
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.32569617, 0, 7.93854523, 0)
+TextLabel_10.Size = UDim2.new(1.43593132, 0, 0.567442, 0)
+TextLabel_10.Font = Enum.Font.Cartoon
+TextLabel_10.Text = "Copyright © 2018 All rights reserved. By using this tool you agree to our Terms of Service."
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 30.000
+TextLabel_10.TextWrapped = true
+
+UITextSizeConstraint_10.Parent = TextLabel_10
+UITextSizeConstraint_10.MaxTextSize = 30
+
+UITextSizeConstraint_11.Parent = TextBox
+UITextSizeConstraint_11.MaxTextSize = 40
+
+Robux1.Name = "Robux1"
+Robux1.Parent = Frame
+Robux1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Robux1.BorderColor3 = Color3.fromRGB(131, 131, 131)
+Robux1.BorderSizePixel = 2
+Robux1.Position = UDim2.new(0.30119431, 0, 0.568765998, 0)
+Robux1.Size = UDim2.new(0.469211787, 0, 0.0476052761, 0)
+Robux1.Font = Enum.Font.Cartoon
+Robux1.Text = "10,000"
+Robux1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Robux1.TextScaled = true
+Robux1.TextSize = 25.000
+Robux1.TextWrapped = true
+
+UITextSizeConstraint_12.Parent = Robux1
+UITextSizeConstraint_12.MaxTextSize = 25
+
+Platform.Name = "Platform"
+Platform.Parent = Frame
+Platform.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Platform.BorderColor3 = Color3.fromRGB(131, 131, 131)
+Platform.BorderSizePixel = 2
+Platform.Position = UDim2.new(0.276407927, 0, 0.388837516, 0)
+Platform.Size = UDim2.new(0.469211787, 0, 0.0506439097, 0)
+Platform.Font = Enum.Font.Cartoon
+Platform.Text = "Andriod"
+Platform.TextColor3 = Color3.fromRGB(0, 0, 0)
+Platform.TextScaled = true
+Platform.TextSize = 25.000
+Platform.TextWrapped = true
+
+UITextSizeConstraint_13.Parent = Platform
+UITextSizeConstraint_13.MaxTextSize = 25
+
+Robux2.Name = "Robux2"
+Robux2.Parent = Frame
+Robux2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Robux2.BorderColor3 = Color3.fromRGB(176, 176, 176)
+Robux2.Position = UDim2.new(0.301231533, 0, 0.618553758, 0)
+Robux2.Size = UDim2.new(0.469211787, 0, 0.129817441, 0)
+Robux2.Visible = false
+
+TextButton.Parent = Robux2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.0133796744, 0, 0, 0)
+TextButton.Size = UDim2.new(0.944881916, 0, 0.257476807, 0)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "10,000"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 25.000
+TextButton.TextWrapped = true
+TextButton.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_14.Parent = TextButton
+UITextSizeConstraint_14.MaxTextSize = 25
+
+TextButton_2.Parent = Robux2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.0180250742, 0, 0.251774967, 0)
+TextButton_2.Size = UDim2.new(0.929133832, 0, 0.234069824, 0)
+TextButton_2.Font = Enum.Font.Cartoon
+TextButton_2.Text = "25,00"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 25.000
+TextButton_2.TextWrapped = true
+TextButton_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_15.Parent = TextButton_2
+UITextSizeConstraint_15.MaxTextSize = 25
+
+TextButton_3.Parent = Robux2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.0157083012, 0, 0.478436559, 0)
+TextButton_3.Size = UDim2.new(0.944881916, 0, 0.234069824, 0)
+TextButton_3.Font = Enum.Font.Cartoon
+TextButton_3.Text = "50,000"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 25.000
+TextButton_3.TextWrapped = true
+TextButton_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_16.Parent = TextButton_3
+UITextSizeConstraint_16.MaxTextSize = 25
+
+TextButton_4.Parent = Robux2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.0157083012, 0, 0.702317178, 0)
+TextButton_4.Size = UDim2.new(0.944881916, 0, 0.234069824, 0)
+TextButton_4.Font = Enum.Font.Cartoon
+TextButton_4.Text = "75,000"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 25.000
+TextButton_4.TextWrapped = true
+TextButton_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_17.Parent = TextButton_4
+UITextSizeConstraint_17.MaxTextSize = 25
+
+PLT.Name = "PLT"
+PLT.Parent = Frame
+PLT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PLT.BorderColor3 = Color3.fromRGB(176, 176, 176)
+PLT.BorderSizePixel = 0
+PLT.Position = UDim2.new(0.27516225, 0, 0.441839516, 0)
+PLT.Size = UDim2.new(0.469211787, 0, 0.0851926953, 0)
+PLT.Visible = false
+
+TextButton_5.Parent = PLT
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BackgroundTransparency = 0.500
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0107550025, 0, -0.0356677845, 0)
+TextButton_5.Size = UDim2.new(0.944881916, 0, 0.35667786, 0)
+TextButton_5.Font = Enum.Font.Cartoon
+TextButton_5.Text = "Andriod"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 25.000
+TextButton_5.TextWrapped = true
+TextButton_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_18.Parent = TextButton_5
+UITextSizeConstraint_18.MaxTextSize = 25
+
+TextButton_6.Parent = PLT
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BackgroundTransparency = 0.500
+TextButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.0127757303, 0, 0.329088151, 0)
+TextButton_6.Size = UDim2.new(0.944881916, 0, 0.35667786, 0)
+TextButton_6.Font = Enum.Font.Cartoon
+TextButton_6.Text = "iOS"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 25.000
+TextButton_6.TextWrapped = true
+TextButton_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_19.Parent = TextButton_6
+UITextSizeConstraint_19.MaxTextSize = 25
+
+TextButton_7.Parent = PLT
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BackgroundTransparency = 0.500
+TextButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.0130836312, 0, 0.678854406, 0)
+TextButton_7.Size = UDim2.new(0.944881916, 0, 0.368567109, 0)
+TextButton_7.Font = Enum.Font.Cartoon
+TextButton_7.Text = "PC"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 25.000
+TextButton_7.TextWrapped = true
+TextButton_7.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_20.Parent = TextButton_7
+UITextSizeConstraint_20.MaxTextSize = 25
+
+Andriod.Name = "Andriod"
+Andriod.Parent = Frame
+Andriod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Andriod.BorderSizePixel = 0
+Andriod.Position = UDim2.new(0.284583151, 0, 0.393026233, 0)
+Andriod.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+Andriod.Visible = false
+Andriod.Font = Enum.Font.Cartoon
+Andriod.Text = "Andriod"
+Andriod.TextColor3 = Color3.fromRGB(0, 0, 0)
+Andriod.TextScaled = true
+Andriod.TextSize = 25.000
+Andriod.TextWrapped = true
+
+UITextSizeConstraint_21.Parent = Andriod
+UITextSizeConstraint_21.MaxTextSize = 25
+
+PC.Name = "PC"
+PC.Parent = Frame
+PC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PC.BorderSizePixel = 0
+PC.Position = UDim2.new(0.284999996, 0, 0.39278096, 0)
+PC.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+PC.Visible = false
+PC.Font = Enum.Font.Cartoon
+PC.Text = "PC"
+PC.TextColor3 = Color3.fromRGB(0, 0, 0)
+PC.TextScaled = true
+PC.TextSize = 25.000
+PC.TextWrapped = true
+
+UITextSizeConstraint_22.Parent = PC
+UITextSizeConstraint_22.MaxTextSize = 25
+
+iOS.Name = "iOS"
+iOS.Parent = Frame
+iOS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+iOS.BorderSizePixel = 0
+iOS.Position = UDim2.new(0.284999996, 0, 0.39278096, 0)
+iOS.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+iOS.Visible = false
+iOS.Font = Enum.Font.Cartoon
+iOS.Text = "iOS"
+iOS.TextColor3 = Color3.fromRGB(0, 0, 0)
+iOS.TextScaled = true
+iOS.TextSize = 25.000
+iOS.TextWrapped = true
+
+UITextSizeConstraint_23.Parent = iOS
+UITextSizeConstraint_23.MaxTextSize = 25
+
+d.Name = "d"
+d.Parent = Frame
+d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d.BorderSizePixel = 0
+d.Position = UDim2.new(0.308138013, 0, 0.571940422, 0)
+d.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+d.Visible = false
+d.Font = Enum.Font.Cartoon
+d.Text = "75,000"
+d.TextColor3 = Color3.fromRGB(0, 0, 0)
+d.TextScaled = true
+d.TextSize = 25.000
+d.TextWrapped = true
+
+UITextSizeConstraint_24.Parent = d
+UITextSizeConstraint_24.MaxTextSize = 25
+
+d_2.Name = "d"
+d_2.Parent = Frame
+d_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d_2.BorderSizePixel = 0
+d_2.Position = UDim2.new(0.308138013, 0, 0.571940422, 0)
+d_2.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+d_2.Visible = false
+d_2.Font = Enum.Font.Cartoon
+d_2.Text = "75,000"
+d_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+d_2.TextScaled = true
+d_2.TextSize = 25.000
+d_2.TextWrapped = true
+
+UITextSizeConstraint_25.Parent = d_2
+UITextSizeConstraint_25.MaxTextSize = 25
+
+c.Name = "c"
+c.Parent = Frame
+c.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c.BorderSizePixel = 0
+c.Position = UDim2.new(0.308138013, 0, 0.571940422, 0)
+c.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+c.Visible = false
+c.Font = Enum.Font.Cartoon
+c.Text = "50,000"
+c.TextColor3 = Color3.fromRGB(0, 0, 0)
+c.TextScaled = true
+c.TextSize = 25.000
+c.TextWrapped = true
+
+UITextSizeConstraint_26.Parent = c
+UITextSizeConstraint_26.MaxTextSize = 25
+
+b.Name = "b"
+b.Parent = Frame
+b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+b.BorderSizePixel = 0
+b.Position = UDim2.new(0.308138013, 0, 0.571940422, 0)
+b.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+b.Visible = false
+b.Font = Enum.Font.Cartoon
+b.Text = "25,000"
+b.TextColor3 = Color3.fromRGB(0, 0, 0)
+b.TextScaled = true
+b.TextSize = 25.000
+b.TextWrapped = true
+
+UITextSizeConstraint_27.Parent = b
+UITextSizeConstraint_27.MaxTextSize = 25
+
+a.Name = "a"
+a.Parent = Frame
+a.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.BorderSizePixel = 0
+a.Position = UDim2.new(0.308138013, 0, 0.571940422, 0)
+a.Size = UDim2.new(0.455664992, 0, 0.0415280052, 0)
+a.Visible = false
+a.Font = Enum.Font.Cartoon
+a.Text = "10,000"
+a.TextColor3 = Color3.fromRGB(0, 0, 0)
+a.TextScaled = true
+a.TextSize = 25.000
+a.TextWrapped = true
+
+UITextSizeConstraint_28.Parent = a
+UITextSizeConstraint_28.MaxTextSize = 25
+
+Test1.Name = "Test1"
+Test1.Parent = Frame
+Test1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Test1.BackgroundTransparency = 1.000
+Test1.Position = UDim2.new(0.451809108, 0, 0.763070166, 0)
+Test1.Size = UDim2.new(0.10837438, 0, 0.0557083003, 0)
+Test1.Image = "rbxassetid://2851920938"
+Test1.ImageColor3 = Color3.fromRGB(89, 89, 89)
+Test1.ScaleType = Enum.ScaleType.Slice
+Test1.SliceCenter = Rect.new(25, 25, 25, 25)
+
+ImageButton.Parent = Test1
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.0787271857, 0, 0.0690909624, 0)
+ImageButton.Size = UDim2.new(0.534090936, 0, 0.854545474, 0)
+ImageButton.Image = "rbxassetid://2851920938"
+
+Test2.Name = "Test2"
+Test2.Parent = Frame
+Test2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Test2.BackgroundTransparency = 1.000
+Test2.Position = UDim2.new(0.451963753, 0, 0.762964189, 0)
+Test2.Size = UDim2.new(0.10837438, 0, 0.0557083003, 0)
+Test2.Visible = false
+Test2.Image = "rbxassetid://2851920938"
+Test2.ImageColor3 = Color3.fromRGB(20, 135, 33)
+Test2.ScaleType = Enum.ScaleType.Slice
+Test2.SliceCenter = Rect.new(25, 25, 25, 25)
+
+ImageButton_2.Parent = Test2
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_2.BackgroundTransparency = 1.000
+ImageButton_2.Position = UDim2.new(0.385545373, 0, 0.0690909624, 0)
+ImageButton_2.Size = UDim2.new(0.534090936, 0, 0.854545474, 0)
+ImageButton_2.Image = "rbxassetid://2851920938"
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(131, 131, 131)
+Frame_3.BorderSizePixel = 2
+Frame_3.Position = UDim2.new(0.221950725, 0, 0.569000006, 0)
+Frame_3.Size = UDim2.new(0.0800000057, 0, 0.0469999984, 0)
+
+ImageLabel_2.Parent = Frame_3
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 2
+ImageLabel_2.Position = UDim2.new(0.173406512, 0, 0.0668391287, 0)
+ImageLabel_2.Size = UDim2.new(0.631157577, 0, 0.926675856, 0)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=9888062933"
+
+Signin.Name = "Signin"
+Signin.Parent = Frame
+Signin.BackgroundColor3 = Color3.fromRGB(20, 135, 33)
+Signin.BorderSizePixel = 0
+Signin.Position = UDim2.new(0.064000003, 0, 0.859000027, 0)
+Signin.Size = UDim2.new(0.894088626, 0, 0.0860946476, 0)
+Signin.Font = Enum.Font.Cartoon
+Signin.Text = "     Start Generator"
+Signin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Signin.TextScaled = true
+Signin.TextSize = 55.000
+Signin.TextWrapped = true
+
+ImageLabel_3.Parent = Signin
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.256912768, 0, 0.206869692, 0)
+ImageLabel_3.Size = UDim2.new(0.0743801668, 0, 0.564705908, 0)
+ImageLabel_3.Image = "rbxassetid://2994160704"
+
+UITextSizeConstraint_29.Parent = Signin
+UITextSizeConstraint_29.MaxTextSize = 55
+
+UIAspectRatioConstraint.Parent = ImageLabel
+UIAspectRatioConstraint.AspectRatio = 0.797
+
+Confirm.Name = "Confirm"
+Confirm.Parent = Main
+Confirm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Confirm.BorderColor3 = Color3.fromRGB(85, 85, 85)
+Confirm.BorderSizePixel = 0
+Confirm.Position = UDim2.new(0.248047292, 0, 0.231878966, 0)
+Confirm.Size = UDim2.new(0.502928257, 0, 0.5625, 0)
+Confirm.Visible = false
+
+NO.Name = "NO"
+NO.Parent = Confirm
+NO.BackgroundColor3 = Color3.fromRGB(184, 0, 0)
+NO.BorderSizePixel = 0
+NO.Position = UDim2.new(0.525862098, 0, 0.712962985, 0)
+NO.Size = UDim2.new(0.291120827, 0, 0.206018522, 0)
+NO.Font = Enum.Font.SourceSans
+NO.Text = "No"
+NO.TextColor3 = Color3.fromRGB(255, 255, 255)
+NO.TextScaled = true
+NO.TextSize = 55.000
+NO.TextWrapped = true
+
+UITextSizeConstraint_30.Parent = NO
+UITextSizeConstraint_30.MaxTextSize = 55
+
+Yes.Name = "Yes"
+Yes.Parent = Confirm
+Yes.BackgroundColor3 = Color3.fromRGB(20, 135, 33)
+Yes.BorderSizePixel = 0
+Yes.Position = UDim2.new(0.204433501, 0, 0.712962985, 0)
+Yes.Size = UDim2.new(0.291120827, 0, 0.206018522, 0)
+Yes.Font = Enum.Font.Cartoon
+Yes.Text = "Yes"
+Yes.TextColor3 = Color3.fromRGB(255, 255, 255)
+Yes.TextScaled = true
+Yes.TextSize = 55.000
+Yes.TextWrapped = true
+
+UITextSizeConstraint_31.Parent = Yes
+UITextSizeConstraint_31.MaxTextSize = 55
+
+Frame_4.Parent = Confirm
+Frame_4.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(-0.00627049617, 0, 0.628681898, 0)
+Frame_4.Size = UDim2.new(1.00399995, 0, 0.00400000019, 0)
+
+TextLabel_11.Parent = Confirm
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0108542889, 0, 0.420985937, 0)
+TextLabel_11.Size = UDim2.new(1.02037847, 0, 0.115740739, 0)
+TextLabel_11.Font = Enum.Font.Cartoon
+TextLabel_11.Text = "you choose the right platform?"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 30.000
+TextLabel_11.TextWrapped = true
+
+UITextSizeConstraint_32.Parent = TextLabel_11
+UITextSizeConstraint_32.MaxTextSize = 30
+
+TextLabel_12.Parent = Confirm
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.359941125, 0, 0.342031091, 0)
+TextLabel_12.Size = UDim2.new(0.291120827, 0, 0.115740739, 0)
+TextLabel_12.Font = Enum.Font.Cartoon
+TextLabel_12.Text = "Are you sure that "
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 30.000
+TextLabel_12.TextWrapped = true
+
+UITextSizeConstraint_33.Parent = TextLabel_12
+UITextSizeConstraint_33.MaxTextSize = 30
+
+Frame_5.Parent = Confirm
+Frame_5.BackgroundColor3 = Color3.fromRGB(20, 135, 33)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, -0.0110200951, 0)
+Frame_5.Size = UDim2.new(1, 0, 0.245370373, 0)
+
+TextLabel_13.Parent = Confirm
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.366995066, 0, 0.0682373121, 0)
+TextLabel_13.Size = UDim2.new(0.291120827, 0, 0.115740739, 0)
+TextLabel_13.Font = Enum.Font.Cartoon
+TextLabel_13.Text = "Confirmation"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 50.000
+TextLabel_13.TextWrapped = true
+
+UITextSizeConstraint_34.Parent = TextLabel_13
+UITextSizeConstraint_34.MaxTextSize = 50
+
+UIAspectRatioConstraint_2.Parent = Confirm
+UIAspectRatioConstraint_2.AspectRatio = 1.590
+
+Loading.Name = "Loading"
+Loading.Parent = Main
+Loading.BackgroundColor3 = Color3.fromRGB(218, 218, 218)
+Loading.Position = UDim2.new(0, 0, -0.010416667, 0)
+Loading.Size = UDim2.new(1.00805867, 0, 1.5, 0)
+Loading.Visible = false
+
+Login.Name = "Login"
+Login.Parent = Loading
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login.BorderSizePixel = 0
+Login.Position = UDim2.new(0.207480252, 0, 0.0473255329, 0)
+Login.Size = UDim2.new(0.583874524, 0, 0.585832238, 0)
+
+ImageLabel3.Name = "ImageLabel3"
+ImageLabel3.Parent = Login
+ImageLabel3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel3.BackgroundTransparency = 1.000
+ImageLabel3.Position = UDim2.new(0.412800431, 0, 0.165095702, 0)
+ImageLabel3.Size = UDim2.new(0.174129352, 0, 0.207444683, 0)
+ImageLabel3.Image = "rbxassetid://2995194005"
+ImageLabel3.ImageColor3 = Color3.fromRGB(33, 233, 255)
+
+Ap.Name = "Ap"
+Ap.Parent = Login
+Ap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ap.BorderSizePixel = 0
+Ap.Position = UDim2.new(0.0244776793, 0, 0.51757437, 0)
+Ap.Size = UDim2.new(0.949004948, 0, 0.451038569, 0)
+
+a_2.Name = "a"
+a_2.Parent = Ap
+a_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a_2.BackgroundTransparency = 1.000
+a_2.Position = UDim2.new(0.0262123197, 0, 0, 0)
+a_2.Size = UDim2.new(0.93971169, 0, 0.137978002, 0)
+a_2.Visible = false
+a_2.Font = Enum.Font.SourceSans
+a_2.Text = "[root@28.3.4.53.2]$ open_ssl_connection Roblox -s 28.3.4.53.2 -"
+a_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+a_2.TextScaled = true
+a_2.TextSize = 30.000
+a_2.TextWrapped = true
+a_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_35.Parent = a_2
+UITextSizeConstraint_35.MaxTextSize = 30
+
+b_2.Name = "b"
+b_2.Parent = Ap
+b_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+b_2.BackgroundTransparency = 1.000
+b_2.Position = UDim2.new(0.0235910881, 0, 0.0953947455, 0)
+b_2.Size = UDim2.new(0.93971169, 0, 0.137978002, 0)
+b_2.Visible = false
+b_2.Font = Enum.Font.SourceSans
+b_2.Text = "deobfuscate -encrypt_aes_256"
+b_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+b_2.TextScaled = true
+b_2.TextSize = 30.000
+b_2.TextWrapped = true
+b_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_36.Parent = b_2
+UITextSizeConstraint_36.MaxTextSize = 30
+
+d_3.Name = "d"
+d_3.Parent = Ap
+d_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d_3.BackgroundTransparency = 1.000
+d_3.Position = UDim2.new(0.0275229365, 0, 0.3125, 0)
+d_3.Size = UDim2.new(0.906946242, 0, 0.137978002, 0)
+d_3.Visible = false
+d_3.Font = Enum.Font.SourceSans
+d_3.Text = ""
+d_3.TextColor3 = Color3.fromRGB(255, 255, 0)
+d_3.TextScaled = true
+d_3.TextSize = 30.000
+d_3.TextWrapped = true
+d_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_37.Parent = d_3
+UITextSizeConstraint_37.MaxTextSize = 30
+
+e.Name = "e"
+e.Parent = Ap
+e.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+e.BackgroundTransparency = 1.000
+e.Position = UDim2.new(0.0275229346, 0, 0.463815778, 0)
+e.Size = UDim2.new(0.94364351, 0, 0.128122434, 0)
+e.Visible = false
+e.Font = Enum.Font.SourceSans
+e.Text = "Port 423245 opened successfully.\\n"
+e.TextColor3 = Color3.fromRGB(0, 255, 0)
+e.TextScaled = true
+e.TextSize = 30.000
+e.TextWrapped = true
+e.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_38.Parent = e
+UITextSizeConstraint_38.MaxTextSize = 30
+
+f.Name = "f"
+f.Parent = Ap
+f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+f.BackgroundTransparency = 1.000
+f.Position = UDim2.new(0.0235910863, 0, 0.552631617, 0)
+f.Size = UDim2.new(0.93971169, 0, 0.137978002, 0)
+f.Visible = false
+f.Font = Enum.Font.SourceSans
+f.Text = "Encrypting connection: open_ssl_aes256(28.3.4.53.2);\\n"
+f.TextColor3 = Color3.fromRGB(0, 170, 255)
+f.TextScaled = true
+f.TextSize = 30.000
+f.TextWrapped = true
+f.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_39.Parent = f
+UITextSizeConstraint_39.MaxTextSize = 30
+
+g.Name = "g"
+g.Parent = Ap
+g.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+g.BackgroundTransparency = 1.000
+g.Position = UDim2.new(0.0235910863, 0, 0.608552635, 0)
+g.Size = UDim2.new(0.93971169, 0, 0.137978002, 0)
+g.Visible = false
+g.Font = Enum.Font.SourceSans
+g.Text = "0"
+g.TextColor3 = Color3.fromRGB(255, 255, 0)
+g.TextScaled = true
+g.TextSize = 30.000
+g.TextWrapped = true
+g.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_40.Parent = g
+UITextSizeConstraint_40.MaxTextSize = 30
+
+h.Name = "h"
+h.Parent = Ap
+h.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h.BackgroundTransparency = 1.000
+h.Position = UDim2.new(0.0235910863, 0, 0.746710539, 0)
+h.Size = UDim2.new(0.93971169, 0, 0.137978002, 0)
+h.Visible = false
+h.Font = Enum.Font.SourceSans
+h.Text = "Connection encrypted successfully.\\n"
+h.TextColor3 = Color3.fromRGB(85, 255, 0)
+h.TextScaled = true
+h.TextSize = 30.000
+h.TextWrapped = true
+h.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_41.Parent = h
+UITextSizeConstraint_41.MaxTextSize = 30
+
+i.Name = "i"
+i.Parent = Ap
+i.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+i.BackgroundTransparency = 1.000
+i.Position = UDim2.new(0.0222804714, 0, 0.819078982, 0)
+i.Size = UDim2.new(0.93971169, 0, 0.137978002, 0)
+i.Visible = false
+i.Font = Enum.Font.SourceSans
+i.Text = "Successfully"
+i.TextColor3 = Color3.fromRGB(255, 255, 0)
+i.TextScaled = true
+i.TextSize = 30.000
+i.TextWrapped = true
+i.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_42.Parent = i
+UITextSizeConstraint_42.MaxTextSize = 30
+
+c_2.Name = "c"
+c_2.Parent = Ap
+c_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c_2.BackgroundTransparency = 1.000
+c_2.Position = UDim2.new(0.0275229327, 0, 0.20394735, 0)
+c_2.Size = UDim2.new(0.93971169, 0, 0.223392963, 0)
+c_2.Visible = false
+c_2.Font = Enum.Font.SourceSans
+c_2.Text = "Opening port 423245.\\n"
+c_2.TextColor3 = Color3.fromRGB(0, 170, 255)
+c_2.TextScaled = true
+c_2.TextSize = 30.000
+c_2.TextWrapped = true
+c_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_43.Parent = c_2
+UITextSizeConstraint_43.MaxTextSize = 30
+
+Frame_6.Parent = Login
+Frame_6.BackgroundColor3 = Color3.fromRGB(20, 135, 33)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, -0.000365497079, 0)
+Frame_6.Size = UDim2.new(0.99875623, 0, 0.15578635, 0)
+
+TextLabel_14.Parent = Frame_6
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.10810528, 0, 2.70409369, 0)
+TextLabel_14.Size = UDim2.new(0.783312559, 0, 0.751401305, 0)
+TextLabel_14.Font = Enum.Font.Cartoon
+TextLabel_14.Text = "Processing your request\\n"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 55.000
+TextLabel_14.TextWrapped = true
+
+UITextSizeConstraint_44.Parent = TextLabel_14
+UITextSizeConstraint_44.MaxTextSize = 55
+
+TextLabel_15.Parent = Frame_6
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.11931324, 0, 0.123141378, 0)
+TextLabel_15.Size = UDim2.new(0.783312559, 0, 0.751401305, 0)
+TextLabel_15.Font = Enum.Font.Cartoon
+TextLabel_15.Text = "Generating"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 60.000
+TextLabel_15.TextWrapped = true
+
+UITextSizeConstraint_45.Parent = TextLabel_15
+UITextSizeConstraint_45.MaxTextSize = 60
+
+Login1.Name = "Login1"
+Login1.Parent = Loading
+Login1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login1.BorderSizePixel = 0
+Login1.Position = UDim2.new(0.21183756, 0, 0.108957477, 0)
+Login1.Size = UDim2.new(0.583874524, 0, 0.436153114, 0)
+Login1.Visible = false
+
+Password.Name = "Password"
+Password.Parent = Login1
+Password.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Password.BorderColor3 = Color3.fromRGB(179, 179, 179)
+Password.BorderSizePixel = 2
+Password.Position = UDim2.new(0.202178046, 0, 0.62690866, 0)
+Password.Size = UDim2.new(0.594527364, 0, 0.079861261, 0)
+
+PasswordBox.Name = "PasswordBox"
+PasswordBox.Parent = Password
+PasswordBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PasswordBox.BackgroundTransparency = 1.000
+PasswordBox.BorderColor3 = Color3.fromRGB(200, 200, 200)
+PasswordBox.Position = UDim2.new(0.000449591607, 0, -0.0020542203, 0)
+PasswordBox.Size = UDim2.new(0.985355675, 0, 0.996855855, 0)
+PasswordBox.Font = Enum.Font.GothamBlack
+PasswordBox.MultiLine = true
+PasswordBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+PasswordBox.Text = ""
+PasswordBox.TextColor3 = Color3.fromRGB(168, 168, 168)
+PasswordBox.TextScaled = true
+PasswordBox.TextSize = 15.000
+PasswordBox.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PasswordBox.TextTransparency = 1.000
+PasswordBox.TextWrapped = true
+PasswordBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_46.Parent = PasswordBox
+UITextSizeConstraint_46.MaxTextSize = 15
+
+FakePassword.Name = "FakePassword"
+FakePassword.Parent = Password
+FakePassword.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FakePassword.BackgroundTransparency = 1.000
+FakePassword.Position = UDim2.new(0.0179816205, 0, 0.278958708, 0)
+FakePassword.Size = UDim2.new(0.0146443518, 0, 0.423663735, 0)
+FakePassword.Font = Enum.Font.SourceSans
+FakePassword.Text = ""
+FakePassword.TextColor3 = Color3.fromRGB(0, 0, 0)
+FakePassword.TextScaled = true
+FakePassword.TextSize = 25.000
+FakePassword.TextWrapped = true
+FakePassword.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_47.Parent = FakePassword
+UITextSizeConstraint_47.MaxTextSize = 25
+
+Signin_2.Name = "Signin"
+Signin_2.Parent = Login1
+Signin_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Signin_2.BackgroundTransparency = 1.000
+Signin_2.Position = UDim2.new(0.349319041, 0, 0.844968319, 0)
+Signin_2.Size = UDim2.new(0.288557202, 0, 0.101502962, 0)
+Signin_2.Image = "rbxassetid://2790390993"
+Signin_2.ImageColor3 = Color3.fromRGB(20, 135, 33)
+Signin_2.ScaleType = Enum.ScaleType.Slice
+Signin_2.SliceCenter = Rect.new(16, 16, 240, 240)
+
+TextLabel_16.Parent = Signin_2
+TextLabel_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.514800131, 0, 0.441176504, 0)
+TextLabel_16.Size = UDim2.new(1, 0, 0.899999976, 0)
+TextLabel_16.Font = Enum.Font.Cartoon
+TextLabel_16.Text = "Log in"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 30.000
+TextLabel_16.TextWrapped = true
+
+UITextSizeConstraint_48.Parent = TextLabel_16
+UITextSizeConstraint_48.MaxTextSize = 30
+
+Incorrect1.Name = "Incorrect1"
+Incorrect1.Parent = Login1
+Incorrect1.BackgroundColor3 = Color3.fromRGB(255, 240, 240)
+Incorrect1.BackgroundTransparency = 1.000
+Incorrect1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Incorrect1.BorderSizePixel = 0
+Incorrect1.Position = UDim2.new(0.197297066, 0, 0.759517372, 0)
+Incorrect1.Size = UDim2.new(0.577114403, 0, 0.0676686391, 0)
+Incorrect1.Visible = false
+Incorrect1.Font = Enum.Font.Cartoon
+Incorrect1.Text = "Incorrect username or password."
+Incorrect1.TextColor3 = Color3.fromRGB(255, 0, 0)
+Incorrect1.TextScaled = true
+Incorrect1.TextSize = 20.000
+Incorrect1.TextWrapped = true
+
+UITextSizeConstraint_49.Parent = Incorrect1
+UITextSizeConstraint_49.MaxTextSize = 20
+
+ImageLabel3_2.Name = "ImageLabel3"
+ImageLabel3_2.Parent = Login1
+ImageLabel3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel3_2.BackgroundTransparency = 1.000
+ImageLabel3_2.Position = UDim2.new(0.744889975, 0, 0.636189759, 0)
+ImageLabel3_2.Size = UDim2.new(0.0373134315, 0, 0.059707623, 0)
+ImageLabel3_2.Visible = false
+ImageLabel3_2.Image = "rbxassetid://2995194005"
+ImageLabel3_2.ImageColor3 = Color3.fromRGB(85, 255, 255)
+
+ImageLabel_4.Parent = Login1
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(184, 62, 5)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(211, 211, 211)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.408131987, 0, 0.17646794, 0)
+ImageLabel_4.Size = UDim2.new(0.160447761, 0, 0.250772029, 0)
+ImageLabel_4.Image = "http://www.roblox.com/Thumbs/Avatar.ashx?x=200&y=200&userId=1"
+
+ImageLabel_5.Parent = Login1
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(184, 62, 5)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(211, 211, 211)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.370354652, 0, 0.119572073, 0)
+ImageLabel_5.Size = UDim2.new(0.245776355, 0, 0.360920221, 0)
+ImageLabel_5.Image = "rbxassetid://2998045273"
+
+Frame_7.Parent = ImageLabel_5
+Frame_7.BackgroundColor3 = Color3.fromRGB(20, 135, 33)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(-1.54490674, 0, -0.512596309, 0)
+Frame_7.Size = UDim2.new(4.14056826, 0, 0.359614074, 0)
+
+TextLabel_17.Parent = Frame_7
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.11559581, 0, -0.152191013, 0)
+TextLabel_17.Size = UDim2.new(0.768766701, 0, 1.21140051, 0)
+TextLabel_17.Font = Enum.Font.Cartoon
+TextLabel_17.Text = "Verification"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 60.000
+TextLabel_17.TextWrapped = true
+
+UITextSizeConstraint_50.Parent = TextLabel_17
+UITextSizeConstraint_50.MaxTextSize = 60
+
+ImageLabel_6.Parent = ImageLabel_5
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.Position = UDim2.new(0.0507457592, 0, -0.0874224082, 0)
+ImageLabel_6.Size = UDim2.new(0, 176, 0, 170)
+ImageLabel_6.Image = "rbxassetid://2998058558"
+ImageLabel_6.ImageColor3 = Color3.fromRGB(162, 162, 162)
+
+UsernameBox.Name = "UsernameBox"
+UsernameBox.Parent = ImageLabel_5
+UsernameBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox.BackgroundTransparency = 1.000
+UsernameBox.BorderColor3 = Color3.fromRGB(200, 200, 200)
+UsernameBox.BorderSizePixel = 0
+UsernameBox.Position = UDim2.new(-0.685150623, 0, 0.847827852, 0)
+UsernameBox.Size = UDim2.new(2.40885592, 0, 0.264690638, 0)
+UsernameBox.Font = Enum.Font.Cartoon
+UsernameBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+UsernameBox.TextScaled = true
+UsernameBox.TextSize = 40.000
+UsernameBox.TextWrapped = true
+
+UITextSizeConstraint_51.Parent = UsernameBox
+UITextSizeConstraint_51.MaxTextSize = 40
+
+Downpassword.Name = "Downpassword"
+Downpassword.Parent = Login1
+Downpassword.BackgroundColor3 = Color3.fromRGB(255, 240, 240)
+Downpassword.BackgroundTransparency = 1.000
+Downpassword.BorderColor3 = Color3.fromRGB(136, 136, 136)
+Downpassword.BorderSizePixel = 0
+Downpassword.Position = UDim2.new(0.206003547, 0, 0.705780506, 0)
+Downpassword.Size = UDim2.new(0.577114403, 0, 0.0676686391, 0)
+Downpassword.Font = Enum.Font.Cartoon
+Downpassword.Text = "Password"
+Downpassword.TextColor3 = Color3.fromRGB(139, 139, 139)
+Downpassword.TextScaled = true
+Downpassword.TextSize = 20.000
+Downpassword.TextWrapped = true
+
+UITextSizeConstraint_52.Parent = Downpassword
+UITextSizeConstraint_52.MaxTextSize = 20
+
+-- Scripts:
+
+local function UWRPI_fake_script() -- Main.Ready Player 
+	local script = Instance.new('LocalScript', Main)
+
+	local player = game.Players.LocalPlayer
+	local cam = game.Workspace.CurrentCamera
+	
+	
+	while player.Character == nil do
+		wait()
+	end
+	print("Camera change ready")
+	
+	
+	cam.CameraType = "Scriptable"
+	cam.CameraSubject = game.Workspace.Baseplate
+	
+	print("Camera setup complete")
+end
+coroutine.wrap(UWRPI_fake_script)()
+local function FVPERJX_fake_script() -- Holder.Smooth Scrolling 
+	local script = Instance.new('LocalScript', Holder)
+
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	local mouse = player:getMouse()
+	local yVel = 0
+	local friction = 1
+	local scrollSpeed = 30
+	local downPress = false
+	local upPress = false
+	
+	mouse.WheelBackward:connect(function()
+		yVel = yVel + scrollSpeed
+	end)
+	
+	mouse.KeyDown:connect(function(k)
+		local key = string.byte(k)
+		if(key == 20) then
+			upPress = true
+		end
+	end)
+	
+	mouse.KeyDown:connect(function(k)
+		local key = string.byte(k)
+		if(key == 20) then
+			downPress = true
+		end
+	end)
+	
+	mouse.KeyUp:connect(function(k)
+		local key = string.byte(k)
+		if(key == 20) then
+			upPress = false
+		end
+	end)
+	
+	mouse.KeyUp:connect(function(k)
+		local key = string.byte(k)
+		if(key == 20) then
+			downPress = false
+		end
+	end)
+	
+	mouse.WheelForward:connect(function()
+		yVel = yVel - scrollSpeed
+	end)
+	
+	while wait() do
+	
+		yVel = yVel * friction
+		frame.CanvasPosition = frame.CanvasPosition + Vector2.new(0,yVel)
+		if(frame.CanvasPosition.Y < 1) then
+			yVel = 0
+			frame.CanvasPosition = Vector2.new(0,0)
+		elseif(frame.CanvasPosition.Y > 400) then
+			yVel = 0
+			frame.CanvasPosition = Vector2.new(0,400)
+		end
+		
+		if downPress then
+			yVel = yVel + 20
+		end
+		
+		if upPress then
+			yVel = yVel - 20
+		end
+	end
+end
+coroutine.wrap(FVPERJX_fake_script)()
+local function EZUVNXD_fake_script() -- Robux1.LocalScript 
+	local script = Instance.new('LocalScript', Robux1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	 script.Parent.Parent.Robux2.Visible = true
+	end)
+end
+coroutine.wrap(EZUVNXD_fake_script)()
+local function OGAEX_fake_script() -- Platform.LocalScript 
+	local script = Instance.new('LocalScript', Platform)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.PLT.Visible = true
+	end)
+end
+coroutine.wrap(OGAEX_fake_script)()
+local function SPIM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.a.Visible = true
+		script.Parent.Parent.Parent.b.Visible = false
+		script.Parent.Parent.Parent.c.Visible = false
+		script.Parent.Parent.Parent.d.Visible = false
+		script.Parent.Parent.Parent.Robux2.Visible = false
+	end)
+end
+coroutine.wrap(SPIM_fake_script)()
+local function PPKZY_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.a.Visible = false
+		script.Parent.Parent.Parent.b.Visible = true
+		script.Parent.Parent.Parent.c.Visible = false
+		script.Parent.Parent.Parent.d.Visible = false
+		script.Parent.Parent.Parent.Robux2.Visible = false
+	end)
+end
+coroutine.wrap(PPKZY_fake_script)()
+local function SBXADN_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.a.Visible = false
+		script.Parent.Parent.Parent.b.Visible = false
+		script.Parent.Parent.Parent.c.Visible = true
+		script.Parent.Parent.Parent.d.Visible = false
+		script.Parent.Parent.Parent.Robux2.Visible = false
+	end)
+end
+coroutine.wrap(SBXADN_fake_script)()
+local function XFHWLCV_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.a.Visible = false
+		script.Parent.Parent.Parent.b.Visible = false
+		script.Parent.Parent.Parent.c.Visible = false
+		script.Parent.Parent.Parent.d.Visible = true
+		script.Parent.Parent.Parent.Robux2.Visible = false
+	end)
+end
+coroutine.wrap(XFHWLCV_fake_script)()
+local function ZDAC_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.PC.Visible = false
+		script.Parent.Parent.Parent.iOS.Visible = false
+		script.Parent.Parent.Parent.Andriod.Visible = true
+		script.Parent.Parent.Parent.PLT.Visible = false
+	end)
+end
+coroutine.wrap(ZDAC_fake_script)()
+local function NCCYEBC_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.iOS.Visible = true
+		script.Parent.Parent.Parent.Andriod.Visible = false
+		script.Parent.Parent.Parent.PC.Visible = false
+		script.Parent.Parent.Parent.PLT.Visible = false
+	end)
+end
+coroutine.wrap(NCCYEBC_fake_script)()
+local function RPYMJ_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.iOS.Visible = false
+		script.Parent.Parent.Parent.Andriod.Visible = false
+		script.Parent.Parent.Parent.PC.Visible = true
+		script.Parent.Parent.Parent.PLT.Visible = false
+	end)
+end
+coroutine.wrap(RPYMJ_fake_script)()
+local function EGSB_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Test2.Visible = true
+		script.Parent.Parent.Parent.Test1.Visible = false
+	end)
+end
+coroutine.wrap(EGSB_fake_script)()
+local function TJVVYUH_fake_script() -- ImageButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Test1.Visible = true
+		script.Parent.Parent.Parent.Test2.Visible = false
+	end)
+end
+coroutine.wrap(TJVVYUH_fake_script)()
+local function FKLBH_fake_script() -- Signin.LocalScript 
+	local script = Instance.new('LocalScript', Signin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Confirm.Visible = true
+		script.Parent.Parent.Parent.Frame.Visible = false
+	end)
+end
+coroutine.wrap(FKLBH_fake_script)()
+local function DBUKTPW_fake_script() -- NO.LocalScript 
+	local script = Instance.new('LocalScript', NO)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Confirm.Visible = false
+		script.Parent.Parent.Parent.Holder.ImageLabel.Frame.Visible = true
+	end)
+end
+coroutine.wrap(DBUKTPW_fake_script)()
+local function HNVKUUI_fake_script() -- Yes.LocalScript 
+	local script = Instance.new('LocalScript', Yes)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Confirm.Visible = false
+		script.Parent.Parent.Parent.Loading.Visible = true
+		script.Parent.Parent.Parent.Loading.Login.Ap.LocalScript.Disabled = false
+		wait(2)
+		script.Parent.Parent.Parent.Loading.Login.Ap.d.Low.Disabled = false
+		wait(1.5)
+		script.Parent.Parent.Parent.Loading.Login.Ap.g.High.Disabled = false
+		script.Parent.Preant.Parent.Parent.Parent.Parent.Frame.Visible = false
+	end)
+end
+coroutine.wrap(HNVKUUI_fake_script)()
+local function JDANWU_fake_script() -- Main.PasswordChecker 
+	local script = Instance.new('LocalScript', Main)
+
+	wait()
+	local PasswordG = script.Parent.Loading.Login1.Password.PasswordBox
+	CheckForRep = function(Pword)
+	    local Repet = false
+	    local Characters = {}
+	    for i = 1, string.len(Pword) do
+	        local String = string.sub(Pword, i, i)
+	        if Characters[String] then
+	            Characters[String] = Characters[String] + 1
+	        else
+	            Characters[String] = 1
+	        end
+	    end
+	    for Character, Amount in pairs(Characters) do
+	        if Amount > 10 then
+	            Repet = true
+	        end
+	    end
+	    return Repet
+	end
+	
+	CheckForSymbols = function(String)
+	    local Symbols = false
+	    for i=1, string.len(String) do
+	        local L = string.sub(String, i, i)
+	        if L == "*" or L == "&" or L == "=" then
+	            Symbols = true
+	        end
+	    end
+	    return Symbols
+	end
+	
+	local Fake = PasswordG.Parent.FakePassword
+	spawn(function()
+	    PasswordG.Focused:connect(function()
+	        local P = script.Parent.Frame.Password
+	        P.BorderColor3 = Color3.fromRGB(0, 85, 255)
+	    end)
+	    PasswordG.FocusLost:connect(function()
+	        local P = script.Parent.Frame.Password
+	        P.BorderColor3 = Color3.fromRGB(200, 200, 200)
+	    end)
+	    while wait() do
+	        Fake.Text = string.rep("•", string.len(PasswordG.Text))
+	        _G.Password = PasswordG.Text
+	    end
+	end)
+end
+coroutine.wrap(JDANWU_fake_script)()
+local function NFEJKXQ_fake_script() -- ImageLabel3.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel3)
+
+	while true do
+	wait(0.1)
+	script.Parent.Rotation = script.Parent.Rotation +30
+	end
+end
+coroutine.wrap(NFEJKXQ_fake_script)()
+local function SHAXL_fake_script() -- ImageLabel3.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel3)
+
+	while true do
+	wait(1)
+	script.Parent.Visible = true
+	end
+end
+coroutine.wrap(SHAXL_fake_script)()
+-- Ap.LocalScript is disabled.
+-- d_3.Low is disabled.
+-- g.High is disabled.
+local function EDVZLT_fake_script() -- PasswordBox.LocalScript 
+	local script = Instance.new('LocalScript', PasswordBox)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(EDVZLT_fake_script)()
+local function DVNHD_fake_script() -- Signin_2.LocalScript 
+	local script = Instance.new('LocalScript', Signin_2)
+
+	function leftClick(mouse)
+		 script.Parent.Parent.ImageLabel3.Visible = true
+	wait(3)
+	     script.Parent.Parent.Incorrect1.Visible = true
+	     script.Parent.Parent.ImageLabel3.Visible = false
+	wait(4)
+	     script.Parent.Parent.Incorrect1.Visible = false
+	end
+	script.Parent.MouseButton1Click:connect(leftClick)
+	
+end
+coroutine.wrap(DVNHD_fake_script)()
+local function JJUQ_fake_script() -- ImageLabel3_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel3_2)
+
+	while true do
+	wait(0.1)
+	script.Parent.Rotation = script.Parent.Rotation +30
+	end
+end
+coroutine.wrap(JJUQ_fake_script)()
+local function SCOTJWP_fake_script() -- ImageLabel3_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel3_2)
+
+	while true do
+	wait(3)
+	 script.Parent.Visible = false
+	end
+end
+coroutine.wrap(SCOTJWP_fake_script)()
+local function OBMRXOY_fake_script() -- ImageLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_4)
+
+	script.Parent.Image = "https://www.roblox.com/bust-thumbnail/image?userId= "..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
+end
+coroutine.wrap(OBMRXOY_fake_script)()
+local function NFZNW_fake_script() -- UsernameBox.LocalScript 
+	local script = Instance.new('LocalScript', UsernameBox)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(NFZNW_fake_script)()
